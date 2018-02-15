@@ -1,1 +1,2 @@
-echo $1 >> iwrotethis.txt
+echo $USERNAME >> iwrotethis.txt
+echo $VERSION >> iwrotethis.txt
