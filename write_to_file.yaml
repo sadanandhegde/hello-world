@@ -1,0 +1,11 @@
+---
+hosts: all
+  gather_facts: no
+  vars:
+  - Variable1: "{{user_input}}"
+  tasks:
+    - name: Write to file
+    copy:
+      src: {{ Variable1 }}
+      dest: ~/write_varible.txt
+
